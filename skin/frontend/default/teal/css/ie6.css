@@ -1,0 +1,27 @@
+/*********** Header ***********/
+.header-nav-container {
+	margin: 0;
+}
+.quick-access {
+	margin: 0 9px 0 0;
+}
+#nav {
+	margin: 0 -11px 0 0;
+}
+
+
+/*********** Toolbar *********/
+table.view-by a, td.a-right a {
+	padding: 2px 4px;
+	background: none;
+	border: 1px solid #fafafa;
+	color: #666;
+	text-decoration: none;
+}
+table.view-by a.selected, table.view-by a:hover, td.a-right a.selected, td.a-right a:hover {
+	background: #eee;
+	border: 1px solid #ccc;
+	color: #666;
+	text-decoration: none;
+}
+

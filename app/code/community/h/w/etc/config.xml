@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <h_w>
+            <version>1.0.0</version>
+        </h_w>
+    </modules>
+    
+    <frontend>
+        <routers>
+            <h_w>
+                <use>standard</use>
+                <args>
+                    <module>h_w</module>
+                    <frontName>w</frontName>
+                </args>
+            </h_w>
+        </routers>
+    </frontend>
+</config>
