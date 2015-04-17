@@ -105,7 +105,7 @@ class Magentostudy_News_Block_Adminhtml_News_Edit_Tab_Content
     }
 
     /**
-     * Returns status flag about this tab hidden or not
+     * Return status flag about this tab hidden or not
      *
      * @return true
      */

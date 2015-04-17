@@ -1,8 +1,8 @@
 <?php
-class Lesti_HelloWorld_IndexContorller extends Mage_Core_Controller_Front_Action
+class Lesti_WelloWorld_IndexController extends Mage_Core_Controller_Front_Action
 {
-	public function indexAtion()
+	public function indexAction()
 	{
-		acho 'Hello World!';
+		echo 'Hello World!';
 	}
 }

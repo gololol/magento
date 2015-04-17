@@ -4,6 +4,6 @@
         <Markshust_Helloworld>
             <active>true</active>
             <codePool>community</codePool>
-        </Markshust_Helloworld>
+	</Markshust_Helloworld>
     </modules>
 </config>

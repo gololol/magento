@@ -30,14 +30,13 @@ class Magentostudy_News_Block_Adminhtml_News_Edit_Tab_Image
 
         $model = Mage::helper('magentostudy_news')->getNewsItemInstance();
 
-
         $fieldset = $form->addFieldset('image_fieldset', array(
             'legend'    => Mage::helper('magentostudy_news')->__('Image Thumbnail'), 'class' => 'fieldset-wide'
         ));
 
         $this->_addElementTypes($fieldset);
 
-        $fieldset->addField('image', 'image', array(
+	$fieldset->addField('image', 'image', array(
             'name'      => 'image',
             'label'     => Mage::helper('magentostudy_news')->__('Image'),
             'title'     => Mage::helper('magentostudy_news')->__('Image'),

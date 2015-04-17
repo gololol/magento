@@ -7,7 +7,7 @@
 class Magentostudy_News_Helper_Image extends Mage_Core_Helper_Abstract
 {
     /**
-     * Media path to extension imahes
+     * Media path to extension images
      *
      * @var string
      */
@@ -22,7 +22,7 @@ class Magentostudy_News_Helper_Image extends Mage_Core_Helper_Abstract
     const MAX_FILE_SIZE = 1048576;
 
     /**
-     * Manimum image height in pixels
+     * Minimum image height in pixels
      *
      * @var int
      */
@@ -36,7 +36,7 @@ class Magentostudy_News_Helper_Image extends Mage_Core_Helper_Abstract
     const MAX_HEIGHT = 800;
 
     /**
-     * Manimum image width in pixels
+     * Minimum image width in pixels
      *
      * @var int
      */

@@ -40,8 +40,7 @@ $table = $installer->getConnection()
     'nullable' => true,
     'default'  => null,
 ), 'World publish date')
-    ->addColumn('created_at', Varien_Db_Ddl_Table::TYPE_TIMESTAMP, null,
-array(
+    ->addColumn('created_at', Varien_Db_Ddl_Table::TYPE_TIMESTAMP, null, array(
     'nullable' => true,
     'default'  => null,
 ), 'Creation Time')

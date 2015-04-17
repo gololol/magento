@@ -48,7 +48,7 @@ Default layout, loads most of the pages
         <reference name="left">
             <block type="core/template" name="left.permanent.callout" template="callouts/left_col.phtml">
                 <action method="setImgSrc"><src>images/media/col_left_callout.jpg</src></action>
-                <action method="setImgAlt" translate="alt" module="catalog"><alt>Our customer service is available 24/7. Call us at (555) 555-0123. (ol changed is message)</alt></action>
+                <action method="setImgAlt" translate="alt" module="catalog"><alt>OL: Our customer service is available 24/7. Call us at (555) 555-0123.</alt></action>
                 <action method="setLinkUrl"><url>contacts</url></action>
             </block>
         </reference>
@@ -56,7 +56,7 @@ Default layout, loads most of the pages
             <block type="catalog/product_compare_sidebar" before="cart_sidebar" name="catalog.compare.sidebar" template="catalog/product/compare/sidebar.phtml"/>
             <block type="core/template" name="right.permanent.callout" template="callouts/right_col.phtml">
                 <action method="setImgSrc"><src>images/media/col_right_callout.jpg</src></action>
-                <action method="setImgAlt" translate="alt" module="catalog"><alt>We have genuine Blue Mountain Jamaica Coffee certified by the Jamaican Coffee Board</alt></action>
+                <action method="setImgAlt" translate="alt" module="catalog"><alt>OL: We have genuine Blue Mountain Jamaican Coffee certified by the Jamaican Coffee Board</alt></action>
             </block>
         </reference>
         <reference name="footer_links">

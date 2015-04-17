@@ -2,10 +2,10 @@
 <config>
     <modules>
         <Markshust_Helloworld>
-            <version>1.0.0</version>                              
-        </Markshust_Helloworld>                    
+            <version>1.0.0</version>
+        </Markshust_Helloworld>
     </modules>
-
+    
     <frontend>
         <routers>
             <markshust_helloworld>
@@ -17,4 +17,4 @@
             </markshust_helloworld>
         </routers>
     </frontend>
-</config>    
+</config>

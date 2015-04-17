@@ -3,6 +3,6 @@ class Markshust_Helloworld_IndexController extends Mage_Core_Controller_Front_Ac
 {
     public function indexAction()
     {
-        echo 'Hello world! ++';
+        echo 'Hello world!';
     }
-}                  
+}
