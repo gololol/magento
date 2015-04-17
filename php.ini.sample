@@ -1,4 +1,4 @@
-; This file is for CGI/FastCGI installations.
+; This file is for CGI/FastCGI installations...
 ; Try copying it to php5.ini, if it doesn't work
 
 ; adjust memory limit
